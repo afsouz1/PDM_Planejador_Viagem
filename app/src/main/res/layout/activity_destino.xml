@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewDestino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destino"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/buttonMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver no Mapa"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonVoos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar Voos"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonFotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Fotos"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonPartilhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Partilhar Destino" />
+
+</LinearLayout>
